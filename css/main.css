@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+div{
+	border-radius: 2px;
+}
+
+.w-820 {
+	width: 820px !important;
+}
+header{
+	background-color: rgb(24, 131, 127);
+	position: relative;
+}
+.left{
+	background-color: rgb(52, 146, 124);
+	float: left; 
+	height: 666px;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 481px;
+}
+.right{
+	background-color: #cccccc;
+	float: right;
+	padding-left: 14px;
+	padding-bottom: 25px;
+}
+footer{
+	background-color: rgb(10, 255, 0);
+	height: 30px;
+	clear: both;
+}
+
+footer h4{
+	text-align: center;
+}
+.menu{
+	display: block;
+	border-radius: 20%;
+	border: solid 1px black;
+	background-color: #66C43A;
+	cursor: pointer; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-right: -20px;
+
+}
+.menu:hover{
+	background-color: #F0E826;
+	font-family: Verdana;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 5px;
+		
+}
+.menu-header{
+	display: inline-block;
+	border-radius: 20%;
+	border: solid 1px black;
+	background-color: #05FCF2;
+	cursor: pointer; 
+	margin-right: 2px;
+	padding: 8px;
+
+}
+#boton{
+	position: absolute;
+	top: 22px;
+}
+.menu-header:hover{ 
+	background-color: #25EE14;
+	font-family: Verdana;
+	font-size: 20px;
+
+}	
+.img-art{
+	display: block;
+	padding: -10px;
+	border-radius: 50%; 
+	height: 150px;
+
+	margin: auto;
+}
+.logo{
+	display: inline-block;
+	
+}
+.logo img{
+	display: block;
+	width: 100%;
+	border: solid 1px black;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+.icons{
+  	position: absolute;
+	text-decoration: underline;
+	padding: 10px;
+	right: 5px;
+	top: 22px;
+
+}
+.icons a{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.icons li{
+	display: inline-block;
+	padding-right: 10px;
+}
+.icons span{
+	font-family: 'Open Sans', sans-serif;
+}
+.closer{
+	border-radius: 20%;
+	border: solid 1px rgb(66, 38, 38);
+	background: rgb(27, 151, 151);
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	padding: 5px;
+	padding-right: 20px; 
+	padding-left: 20px;
+}
+
+h1, h2{
+	text-align: center;
+	text-decoration: underline;
+}
+h1{
+	color: rgb(7, 94, 28);
+}
+article{
+	margin-top:5px;
+	margin-bottom: 5px;
+	padding: 20px;
+	padding-top: 10px; 
+	border: solid 2px green;
+	background-color: #ffffff;
+	position: relative;
+}
+article:hover{
+	background: black;
+	color: #ffffff;
+}
+ul li{
+	list-style: none;
+	text-align: center;
+}
