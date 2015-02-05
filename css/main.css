@@ -65,9 +65,9 @@ footer h4{
 	
 .img-art{
 	display: block;
-	padding: -10px;
-	border-radius: 50%; 
-	height: 150px;
+	padding: -10px; 
+	height: 200px;
+	width: 200px;
 
 	margin: auto;
 }
@@ -103,7 +103,6 @@ footer h4{
 	font-family: 'Open Sans', sans-serif;
 }
 
-
 h1, h2{
 	text-align: center;
 	text-decoration: underline;
@@ -120,10 +119,21 @@ article{
 	background-color: #ffffff;
 	position: relative;
 }
-article:hover{
-	background: black;
-	color: #ffffff;
+article strong{
+	text-align: center;
+	display: block;
+	margin: 5px;
 }
+article .buy{
+	text-align: center;
+	background-color: green;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 10px;
+
+}
+
+
 ul li{
 	list-style: none;
 	text-align: center;
