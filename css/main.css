@@ -62,26 +62,7 @@ footer h4{
 	padding: 5px;
 		
 }
-.menu-header{
-	display: inline-block;
-	border-radius: 20%;
-	border: solid 1px black;
-	background-color: #05FCF2;
-	cursor: pointer; 
-	margin-right: 2px;
-	padding: 8px;
-
-}
-#boton{
-	position: absolute;
-	top: 22px;
-}
-.menu-header:hover{ 
-	background-color: #25EE14;
-	font-family: Verdana;
-	font-size: 20px;
-
-}	
+	
 .img-art{
 	display: block;
 	padding: -10px;
@@ -121,21 +102,7 @@ footer h4{
 .icons span{
 	font-family: 'Open Sans', sans-serif;
 }
-.closer{
-	border-radius: 20%;
-	border: solid 1px rgb(66, 38, 38);
-	background: rgb(27, 151, 151);
-	color: #ffffff;
-	font-size: 30px;
-	font-weight: bold;
-	position: absolute;
-	top: 0;
-	right: 0;
-	cursor: pointer;
-	padding: 5px;
-	padding-right: 20px; 
-	padding-left: 20px;
-}
+
 
 h1, h2{
 	text-align: center;
