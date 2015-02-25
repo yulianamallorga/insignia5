@@ -6,16 +6,20 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/fonts/fonts.css">
 	<link rel="stylesheet" href="css/960-12-col">
-	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<script src="js/vendor/jquery-1.9.1.js"></script>
+	<script src="js/vendor/jquery.fancybox.js"></script>
+	<script src="js/main.js"></script>
 
-	<title>my page </title>
+
+	<title>Venta de libros</title>
 </head>
 <body>
 	<div class="container_12">
 		<header class="clearfix">
 			<div class="grid_3 alpha">
 				<a href="http://google.com" class="logo">
-					<img src="/home/alumno/projects/bextlan/images/logo.png"  />
+					<img src="images/logo.png"  />
 				</a>
 			</div>
 			<div class="grid_9 omega">
@@ -61,43 +65,43 @@
 			</div>
 			<div class="grid_10 w-820 omega alpha">
 				<div class="right">
+					
 					<h1>Los libros más vendidos</h1>
-					<div class="grid_5 comprar data=nombre=GOT">
-						<article>
-							<img src="images/picture3.jpg" class="img-art" />
+
+					<div class="grid_5">
+						<article data-title="Libro 1" data-price="$490" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic odit obcaecati nemo ea sed dolore natus, eligendi ipsam distinctio, vel itaque sint impedit culpa harum ab necessitatibus dignissimos facere quod. Libro 1">
+							<img src="images/img1.jpg" class="img-art" />
 							<h2>Libro 1</h2>
-							<strong>$450</strong>
-							<div class="buy">Comprar</div>
+							<strong>$490</strong>
+							<div class="show">Ver</div>
 						</article>
 					</div>
 
 					<div class="grid_5">
-						<article>
-							<img src="images/picture2.jpg" class="img-art" />
+						<article data-title="Libro 2" data-price="$370" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, voluptas itaque recusandae ipsa accusantium exercitationem ratione, non laboriosam perferendis. Accusamus, commodi. Asperiores velit aliquam obcaecati voluptatibus aspernatur dolorum tempora, delectus. Libro 2">
+							<img src="images/img2.jpg" class="img-art" />
 							<h2>Libro 2</h2>
-							<strong>$450</strong>
-							<div class="buy">Comprar</div>
+							<strong>$370</strong>
+							<div class="show">Ver</div>
 						</article>
 					</div>
 
 					<div class="grid_5">
-						<article>
-							<img src="images/picture4.jpg" class="img-art" />
+						<article data-title="Libro 3" data-price="$275" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, voluptas itaque recusandae ipsa accusantium exercitationem ratione, non laboriosam perferendis. Accusamus, commodi. Asperiores velit aliquam obcaecati voluptatibus aspernatur dolorum tempora, delectus. Libro 3">
+							<img src="images/img3.jpg" class="img-art" />
 							<h2>Libro 3</h2>
-							<strong>$450</strong>
-							<div class="buy">Comprar</div>
+							<strong>$275</strong>
+							<div class="show">Ver</div>
 
 						</article>
 					</div>
 
-					<div class="grid_5">
-						<article>
-							
-							<img src="images/picture1.jpg" class="img-art" />
+					<div  class="grid_5">
+						<article data-title="Libro 4" data-price="$450" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, voluptas itaque recusandae ipsa accusantium exercitationem ratione, non laboriosam perferendis. Accusamus, commodi. Asperiores velit aliquam obcaecati voluptatibus aspernatur dolorum tempora, delectus. Libro 4">
+							<img src="images/img4.jpg" class="img-art" />
 							<h2>Libro 4</h2>
 							<strong>$450</strong>
-							<div class="buy">Comprar</div>
-
+							<div class="show">Ver</div>
 						</article>
 					</div>
 				</div>
@@ -105,9 +109,18 @@
 			
 		</div>	
 		<footer>
-			<h4>Pie de página</h4>
+			<h4>Venta de libros</h4>
 		</footer>
 	</div>
+
+	<script id="template-product-modal" type="text/template">
+		<div id="product-modal">
+			<div class="product-title">Loading title</div>
+			<div class="product-price">Loading price</div>
+			<div class="product-description">Loading description</div>	
+			<div class="product-buy">Buy</div>
+		</div>
+	</script>
 
 </body>
 </html>
